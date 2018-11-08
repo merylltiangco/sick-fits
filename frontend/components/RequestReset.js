@@ -15,8 +15,6 @@ const REQUEST_RESET_MUTATION = gql`
 
 class RequestReset extends Component {
   state = {
-    name: '',
-    password: '',
     email: ''
   };
   saveToState = e => {
